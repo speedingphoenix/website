@@ -72,7 +72,7 @@ h1 {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
+  width: 50%;
 }
 
 /* Clear floats after rows */ 
@@ -85,7 +85,7 @@ h1 {
 /* Content */
 .content {
   background-color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
