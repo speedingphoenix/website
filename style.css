@@ -44,14 +44,6 @@
     background-color: #ddd;
     color: black;
   }
-
-  td {
-    vertical-align: top;
-  }
-  
-  ol li {
-    line-height: 2;
-  }
   
   footer {
     font-family: "Times New Roman", Times, serif;
@@ -66,11 +58,18 @@
     background-color: #333;
   }
   
-  #Contact {
+  #picture {
     display: flex;
     flex-wrap: wrap;
   
     justify-content: space-around;
+  }
+
+  #theme {
+    display: flex;
+    flex-wrap: wrap;
+  padding: 2%;
+    justify-content: space-between;
   }
   .card {
     display: flex;
@@ -99,13 +98,17 @@
     padding: 2px 14px;
     text-align: center;
   }
-  ul {
-    list-style: none;
-    text-align: center;
+
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
   }
-  li {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
   }
