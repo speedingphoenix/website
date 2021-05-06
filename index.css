@@ -92,3 +92,33 @@
       width: 100%;
     }
   }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.1s;
+    width: 350px;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  img {
+    border-radius: 15px 15px 0 0;
+    height: 400px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px 14px;
+    text-align: center;
+    height: 350px;
+  }
