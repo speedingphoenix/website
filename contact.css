@@ -12,9 +12,12 @@ body {
 .header {
   padding: 30px;
   text-align: center;
-  background: linear-gradient(90deg, rgb(14, 224, 231) 0%,
-  rgb(15, 169, 240) 50%, 
-  rgb(8, 23, 156) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(14, 224, 231) 0%,
+    rgb(15, 169, 240) 50%,
+    rgb(8, 23, 156) 100%
+  );
   color: white;
 }
 
@@ -109,7 +112,7 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-  .row {   
+  .row {
     flex-direction: column;
   }
 }
