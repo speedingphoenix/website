@@ -178,8 +178,10 @@ img {
 }
 
 @media screen and (max-width: 700px) {
-  .row {
+  .row, .column{
     flex-direction: column;
+    flex-direction: row;
+
   }
 }
 
