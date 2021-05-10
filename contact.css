@@ -95,13 +95,7 @@ img {
   border-radius: 5px 5px 0 0;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2px 14px;
-  text-align: center;
-}
+
 footer {
   display: flex;
   font-family: "Times New Roman", Times, serif;
