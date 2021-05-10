@@ -116,12 +116,10 @@ body {
   color: white;
 }
 
-footer {
-  font-family: "Times New Roman", Times, serif;
-  padding: 8px;
-  background-color: black;
-  color: white;
+.footer {
+  padding: 20px;
   text-align: center;
+  background: #ddd;
 }
 
 .topnav {
